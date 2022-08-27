@@ -10,7 +10,7 @@ const url = 'https://course-api.com/react-tabs-project';
 const App = () => {
   const [tabData , setTabData] = useState([]);
   let[newData, setNewData] = useState([]);
-  console.log(newData);
+
   
   const fetchData = async() => 
   {
@@ -36,7 +36,7 @@ const App = () => {
 
   return (
     <div className="App">
-        <h2 className='text-center'>Experience</h2>
+        <h2 className='text-center m-5 p-5'>Experience</h2>
         <div className='tab-container'>
             <div className='sub-container first'>
                 <Button onClick={()=>showTabs("TOMMY")}>  TOMMY </Button>

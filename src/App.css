@@ -10,10 +10,20 @@ body
 .tab-container
 {
   display: flex;
+  justify-content: center;
   flex-wrap: wrap;
   gap: 5rem;
 }
 
+.sub-container.first
+{
+  display: flex;
+  gap:2rem;
+}
+
+ul{
+  list-style-type: none;
+}
 .App-logo {
   height: 40vmin;
   pointer-events: none;
